@@ -32,7 +32,7 @@ jobs:
                   password: ${{ secrets.GITHUB_TOKEN }}
             
             - name: Mise en place de buildx 
-              uses: docker/setup-buildx-action@v2
+              uses: docker/setup-buildx-action@v3.10
 
             - name: Extraction de métadonnées pour le build
               uses: docker/metadata-action@v5
