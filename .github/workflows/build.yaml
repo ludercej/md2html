@@ -63,6 +63,6 @@ jobs:
               with:
                 url: ${{ secrets.PORTAINER_URL }}
                 token: ${{ secrets.PORTAINER_TOKEN }}
-                name: mon-app-stack
+                name: md2html
           # file: on pourrait spécifier un compose file si besoin, sinon il réutilise celui du stack existant
               prune: true
