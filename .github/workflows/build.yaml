@@ -1,4 +1,4 @@
-name: Construction de l'image Docker2
+name: Construction de l'image Docker
 
 on:
   push:
