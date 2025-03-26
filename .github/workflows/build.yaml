@@ -18,6 +18,7 @@ jobs:
         permissions:
             contents: read
             packages: write
+        environnement: PROD   
 
         steps:
             - name: Clone du repository
